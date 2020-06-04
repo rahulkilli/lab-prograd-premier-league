@@ -4,8 +4,16 @@ let managerAge = 78;
 let currentTeam = "Manchester FC";
 let trophiesWon = 27;
 
-//Write your function here
+//Write your function here better copy manager f
 
+function createManager(managerName,managerAge,currentTeam,trophiesWon){
+  let manager=[managerName,managerAge,currentTeam,trophiesWon]
+  return manager;
+}
+
+  //return createManager;
+  //console.log(createManager); 
+  
 // Don't edit the following code
 try {
   var manager = createManager(
